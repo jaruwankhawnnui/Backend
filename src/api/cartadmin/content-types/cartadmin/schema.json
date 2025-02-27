@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cartadmins",
+  "info": {
+    "singularName": "cartadmin",
+    "pluralName": "cartadmins",
+    "displayName": "cartadmin",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Label": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "integer"
+    },
+    "Detail": {
+      "type": "text"
+    },
+    "Borrowed": {
+      "type": "integer",
+      "default": 0
+    },
+    "remaining": {
+      "type": "integer",
+      "default": 0
+    },
+    "item": {
+      "type": "integer",
+      "default": 0
+    },
+    "Bor": {
+      "type": "integer",
+      "default": 0
+    },
+    "categoriesadmin": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::categoriesadmin.categoriesadmin",
+      "inversedBy": "cartadmins"
+    }
+  }
+}

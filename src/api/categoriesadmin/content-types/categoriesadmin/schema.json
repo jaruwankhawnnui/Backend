@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categoriesadmins",
+  "info": {
+    "singularName": "categoriesadmin",
+    "pluralName": "categoriesadmins",
+    "displayName": "Categoriesadmin",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "cartadmins": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cartadmin.cartadmin",
+      "mappedBy": "categoriesadmin"
+    }
+  }
+}

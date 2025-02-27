@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "borrows",
+  "info": {
+    "singularName": "borrow",
+    "pluralName": "borrows",
+    "displayName": "borrow",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "integer",
+      "default": 0
+    },
+    "email": {
+      "type": "email"
+    },
+    "amount": {
+      "type": "integer",
+      "default": 0
+    },
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Due": {
+      "type": "date"
+    },
+    "Borrowing_date": {
+      "type": "date"
+    },
+    "status": {
+      "type": "string"
+    },
+    "form": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "Year": {
+      "type": "string"
+    }
+  }
+}

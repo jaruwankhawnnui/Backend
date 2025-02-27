@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "addcart_anddeletes",
+  "info": {
+    "singularName": "addcart-anddelete",
+    "pluralName": "addcart-anddeletes",
+    "displayName": "addcart_anddelete"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "Price": {
+      "type": "integer",
+      "default": 0
+    },
+    "amount": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "addcontacts",
+  "info": {
+    "singularName": "addcontact",
+    "pluralName": "addcontacts",
+    "displayName": "Addcontact",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "website": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}

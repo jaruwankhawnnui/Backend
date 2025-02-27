@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "checks",
+  "info": {
+    "singularName": "check",
+    "pluralName": "checks",
+    "displayName": "check"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "Borrowing_date": {
+      "type": "date"
+    },
+    "Due": {
+      "type": "date"
+    }
+  }
+}

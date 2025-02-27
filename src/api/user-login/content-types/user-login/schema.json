@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_logins",
+  "info": {
+    "singularName": "user-login",
+    "pluralName": "user-logins",
+    "displayName": "UserLogin",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "text"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "ID_student": {
+      "type": "string"
+    },
+    "addcarts": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::add.add",
+      "inversedBy": "user_logins"
+    },
+    "user_role": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::user-role.user-role",
+      "inversedBy": "user_logins"
+    }
+  }
+}

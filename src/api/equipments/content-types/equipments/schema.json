@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "equipment",
+  "info": {
+    "singularName": "equipments",
+    "pluralName": "equipment",
+    "displayName": "equipment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "amount": {
+      "type": "integer"
+    },
+    "Price": {
+      "type": "integer"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Year": {
+      "type": "string"
+    }
+  }
+}
