@@ -16,6 +16,7 @@
     "@strapi/plugin-users-permissions": "4.25.7",
     "@strapi/provider-upload-cloudinary": "^4.25.7",
     "@strapi/strapi": "4.25.7",
+    "get-proto": "^1.0.1",
     "pg": "8.8.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
