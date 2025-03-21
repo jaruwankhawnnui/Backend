@@ -1,4 +1,4 @@
-## Backend Repository: Project
+
 
 
 # 🚀 Getting started with Strapi
